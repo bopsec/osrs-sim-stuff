@@ -9,15 +9,15 @@ public class VardorvisTest {
 
   int voidwakerMax = 76;
   int scytheMax = 48;
-  int clawMax = 43;
-  int[] soulreaperMax = new int[]{59, 62, 64, 67, 70, 72};
+  int clawMax = 38;
+  int[] soulreaperMax = new int[]{59, 62, 65, 67, 70, 73};
   int currentStack = 4;
   int totalBurnDamage = 0;
   int specTotalDamage = 0;
 
-  int scytheAcc = 230; // full oathplate with bellator
-  int soulreaperAcc = 239; // full oathplate with bellator
-  int clawAcc = 158; // full oathplate with bellator
+  int scytheAcc = 233; // full oathplate with bellator
+  int soulreaperAcc = 242; // full oathplate with bellator
+  int clawAcc = 161; // full oathplate with bellator
 
   int scytheSpeed = 5;
   int soulreaperSpeed = 5;
@@ -425,4 +425,5 @@ public static void main(String[] args) {
     }
   }
 }
+
 
